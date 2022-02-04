@@ -1,0 +1,395 @@
+body {
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(200, 75, 187, 0.79) 93.75%);
+    padding: 10px 14px;
+}
+
+main {
+    height: 830px;
+    background: rgba(90, 85, 85, 0.3);
+    border-radius: 10px;
+}
+
+.main_continer{
+    width: 650px;
+    display: flex;
+    margin: 0px auto;
+    padding: 18px;
+    justify-content: space-between;
+    }
+
+.left_column {
+    width: 47%;
+    background: rgba(196, 196, 196, 0.3);
+    height: 830px;
+    border-radius: 10px;
+    margin-left: 6px;
+    padding: 0px 18px;
+    margin: 0px 9px;
+
+}
+
+.personal_info {
+    margin: 10px 17px 20px 21px;
+    display: flex;
+    justify-content: space-between;
+    width: 254px;
+}
+
+.personal_info__my_photo{
+    width: 110px;
+    height: 110px;
+}
+
+ 
+.personal_info__name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #CECACA;
+}
+
+.personal_info__surname {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.personal_info__profession {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #CECACA;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact_info__icon {  
+    margin: 7px 15px 7px 15px;
+    width: 24px;
+    height: 24px;
+
+}
+
+.contact_info__text {
+    font-family: Cambay;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px ;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.contact_info__email {
+    display: flex;
+    width: 260px;
+    height: 38px;                                                             
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+
+.contact_info__phone_number {
+    display: flex;
+    width: 260px;
+    height: 38px;                                                             
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+
+.contact_info__discord {
+    display: flex;
+    width: 260px;
+    height: 38px;                                                             
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+
+.contact_info__location {
+    display: flex;
+    width: 260px;
+    height: 38px;                                                             
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+}
+
+.languages_and_courses {
+    margin-top: 22px;
+    width: 260px;
+}
+
+.languages {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-bottom: 22px;
+    padding: 6px 0px 26px 21px;
+}
+
+.left_headline {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.language__text {
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FAFAFA;
+}
+
+.language__text span {
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545454;
+}
+
+.language__english {
+    display: flex;
+}
+
+
+.circles_block {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.circles_block :last-child {
+    background-color: rgba(206, 202, 202, 0.6); ;
+}
+
+.left_circle {
+    width: 8px;
+    height: 8px;
+    background: rgba(84, 84, 84, 0.6);
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.courses {
+    width: 260px;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;    
+    padding: 6px 3px 50px 20px;
+    margin-bottom: 83px;
+}
+
+.courses__text {
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.code_example {
+    width: 256px;
+    height: 137px; 
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    padding: 12px 15px 27px 17px;
+}
+
+.code_example__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+
+.right_column {
+    width: 47%;
+    height: 830px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.right_head {
+    display: flex;
+}
+
+.right_title_block {
+    width: 154px;
+    height: 24px;
+    background: #545454;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+
+.right_title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.horisontal_line {
+    width: 141px;
+    height: 1px;  
+    background-color: #545454;          
+    line-height: 24zpx;
+}
+
+.right_text {
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #343434;
+    margin: 0px 16px;
+    
+}
+
+.education {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.education_text {
+    margin: 0px 0px 0px 14px;
+}
+
+.education_text :nth-child(2) {
+    margin-left: 0px;
+}
+
+.education__bsu {
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #343434;
+}
+.education__subtext {
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 18px;
+    color: #73808D;
+}
+
+.my_skills__container {
+    margin: 9px 0px 19px 11px;
+    padding-left: 9px;
+
+}
+
+.my_skills__html {
+    display: flex;
+}
+.my_skills__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.around_icon {
+    height: 44px;
+    width: 44px;
+    background: rgba(196, 196, 196, 0.4);
+    border: solid #3B5999 5px;
+    border-radius: 50%;
+    }
+
+.my_skills__icon {
+    margin: auto;
+    width: 25px;
+    height: 100%;
+}
+
+.my_skills__icon img{
+    margin: 10px auto;
+}
+
+.my_skills__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545454;
+    text-align: center;
+}
+
+.my_skills__stars {
+    display: flex;
+    align-items: center;
+    padding-bottom: 11px;
+    padding-left: 20px
+}
+
+.stars {
+    width: 16px;
+    height: 16px;
+    background-color: #0ACF83;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+
+.greystar {
+    background-color: #C4C4C4;
+}
+
+.my_skills_css {
+    display: flex;
+}
+.my_skills_js {
+    display: flex;
+}
+
+.other_skills__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__container {
+    width: 500px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 40px;
+        
+}
+
+.footer__container a {
+    display: block;
+    align-items: center;
+} 
