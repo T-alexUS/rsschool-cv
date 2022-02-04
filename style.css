@@ -262,6 +262,7 @@ main {
     height: 1px;  
     background-color: #545454;          
     line-height: 24zpx;
+    margin-top: 12px;
 }
 
 .right_text {
